@@ -1,0 +1,46 @@
+/* TEC-18: CSS thuần, mobile-first, không framework. */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color: #2b2118; background: #fdf8f1; line-height: 1.6; }
+h1 { font-size: 2rem; margin: 0 0 .5rem; }
+h2 { font-size: 1.5rem; margin: 0 0 1rem; }
+h3 { font-size: 1.1rem; margin: 0 0 .25rem; }
+p { margin: 0 0 .75rem; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+
+/* Hero: toàn chiều rộng, căn giữa */
+.hero { text-align: center; padding: 2.5rem 1rem 2rem; background: #f3e5d0; }
+.slogan { font-size: 1.1rem; }
+.flag { display: block; font-size: .85rem; color: #8a5a00; }
+.hero-image { display: flex; align-items: center; justify-content: center; min-height: 220px; margin: 1.5rem auto; padding: 1rem; background: #d9c3a5; color: #4a3520; border-radius: 12px; max-width: 720px; }
+
+/* Nút */
+.btn { display: inline-block; padding: .8rem 1.6rem; border-radius: 999px; text-decoration: none; font-weight: 700; }
+.btn-secondary { background: #fff; color: #6b3f12; border: 2px solid #6b3f12; }
+.btn-call { background: #1f7a3a; color: #fff; font-size: 1.15rem; }
+
+/* Thực đơn: một cột trên mobile */
+.menu, .info { max-width: 720px; margin: 0 auto; padding: 2rem 1rem; }
+.menu-list { list-style: none; margin: 0; padding: 0; }
+.menu-item { padding: 1rem 0; border-bottom: 1px solid #e0d2bd; }
+.menu-head { display: flex; justify-content: space-between; gap: 1rem; }
+.menu-name { font-weight: 700; }
+.menu-price { color: #8a5a00; white-space: nowrap; }
+.menu-desc { font-size: .95rem; color: #5c4a38; margin: .25rem 0 0; }
+
+/* Địa chỉ/giờ: xếp dọc trên mobile */
+.info-grid { display: grid; gap: 1.5rem; }
+
+/* Khối gọi điện cuối trang: nền nổi bật, căn giữa */
+.call { text-align: center; padding: 2.5rem 1rem; background: #6b3f12; color: #fff; }
+.call-note { margin: 1rem 0 0; font-size: .9rem; color: #f3e5d0; }
+
+.footer { text-align: center; padding: 1rem; font-size: .9rem; color: #5c4a38; }
+
+/* Desktop: thực đơn 2 cột (món 5 tràn hàng cuối), địa chỉ/giờ 2 cột */
+@media (min-width: 768px) {
+  h1 { font-size: 2.75rem; }
+  .hero { padding: 4rem 1rem 3rem; }
+  .menu, .info { max-width: 900px; }
+  .menu-list { display: grid; grid-template-columns: 1fr 1fr; column-gap: 2rem; }
+  .info-grid { grid-template-columns: 1fr 1fr; }
+}
