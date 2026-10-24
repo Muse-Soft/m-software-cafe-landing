@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>[CẦN PO BỔ SUNG] — Quán cà phê</title>
+<meta name="description" content="Trang giới thiệu quán cà phê — tên quán, thực đơn, địa chỉ, giờ mở cửa và nút gọi điện. Các thông tin có cờ [CẦN PO BỔ SUNG] đang chờ PO bổ sung.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- TEC-18: trang tĩnh một trang theo thiết kế TEC-17 (docs/design.md).
+       Mọi thông tin có cờ [CẦN PO BỔ SUNG] là placeholder, KHÔNG phải thông tin thật.
+       Số tel: trong nút gọi điện hiện là số giữ chỗ 0000000000, chưa gọi được tới quán;
+       khi PO cung cấp số thật, chỉ thay href tel: và nhãn hiển thị, không đổi bố cục. -->
+
+  <!-- (1) HERO -->
+  <header class="hero">
+    <h1>[CẦN PO BỔ SUNG]</h1>
+    <p class="slogan">Cà phê ngon, không gian yên tĩnh <span class="flag">[CẦN PO BỔ SUNG — slogan chờ PO chốt câu thật]</span></p>
+    <!-- Ảnh chính: placeholder. Mô tả theo thiết kế: một ly cà phê trên bàn gỗ
+         trong không gian quán sáng, ấm. Thay bằng ảnh thật của quán khi PO cung cấp,
+         không dùng ảnh của quán khác. -->
+    <div class="hero-image" role="img" aria-label="Ảnh placeholder: một ly cà phê trên bàn gỗ trong không gian quán sáng, ấm">
+      <span>Ảnh placeholder: một ly cà phê trên bàn gỗ, không gian quán sáng và ấm<br><small>[CẦN PO BỔ SUNG — thay bằng ảnh thật của quán khi PO cung cấp]</small></span>
+    </div>
+    <a class="btn btn-secondary" href="#menu">Xem thực đơn</a>
+  </header>
+
+  <main>
+    <!-- (2) THỰC ĐƠN — 5 món -->
+    <section id="menu" class="menu">
+      <h2>Thực đơn</h2>
+      <ul class="menu-list">
+        <li class="menu-item">
+          <div class="menu-head"><span class="menu-name">Cà phê sữa đá</span><span class="menu-price">[CẦN PO BỔ SUNG]</span></div>
+          <p class="menu-desc">Cà phê phin đậm, sữa đặc, đá — món đặc trưng của quán</p>
+        </li>
+        <li class="menu-item">
+          <div class="menu-head"><span class="menu-name">Cà phê đen đá</span><span class="menu-price">[CẦN PO BỔ SUNG]</span></div>
+          <p class="menu-desc">Cà phê phin nguyên chất, ít đường, vị đậm</p>
+        </li>
+        <li class="menu-item">
+          <div class="menu-head"><span class="menu-name">Bạc xỉu</span><span class="menu-price">[CẦN PO BỔ SUNG]</span></div>
+          <p class="menu-desc">Nhiều sữa, ít cà phê, ngọt nhẹ, hợp người mới uống</p>
+        </li>
+        <li class="menu-item">
+          <div class="menu-head"><span class="menu-name">Trà đào cam sả</span><span class="menu-price">[CẦN PO BỔ SUNG]</span></div>
+          <p class="menu-desc">Trà đào mát, cam tươi, sả thơm — món không cà phê</p>
+        </li>
+        <li class="menu-item">
+          <div class="menu-head"><span class="menu-name">Bánh croissant</span><span class="menu-price">[CẦN PO BỔ SUNG]</span></div>
+          <p class="menu-desc">Bánh nướng giòn, ăn kèm cà phê buổi sáng</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- (3) ĐỊA CHỈ + GIỜ MỞ CỬA -->
+    <section class="info">
+      <h2>Tìm chúng tôi</h2>
+      <div class="info-grid">
+        <div class="info-col">
+          <h3>Địa chỉ</h3>
+          <p>[CẦN PO BỔ SUNG]</p>
+        </div>
+        <div class="info-col">
+          <h3>Giờ mở cửa</h3>
+          <p>[CẦN PO BỔ SUNG]</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- (4) NÚT GỌI ĐIỆN -->
+    <section class="call">
+      <h2 class="visually-hidden">Gọi điện</h2>
+      <a class="btn btn-call" href="tel:0000000000">📞 Gọi đặt bàn / đặt món</a>
+      <p class="call-note">Số điện thoại: [CẦN PO BỔ SUNG] — số trong nút hiện chỉ là số giữ chỗ, chưa gọi được tới quán.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>[CẦN PO BỔ SUNG] · Giờ mở cửa: [CẦN PO BỔ SUNG]</p>
+  </footer>
+</body>
+</html>
