@@ -1,40 +1,25 @@
-# M-Software Cafe Landing
+# [CẦN PO BỔ SUNG]
 
-Landing page giới thiệu một quán cà phê: phần mở đầu, thực đơn, địa chỉ, giờ mở cửa và nút gọi điện — trang tĩnh, mở là xem được ngay.
+Trang giới thiệu (landing page) **tĩnh** — trang giới thiệu quán cà phê — tên quán, thực đơn, địa chỉ, giờ mở cửa và nút gọi điện. Các thông tin có cờ [CẦN PO BỔ SUNG] đang chờ PO bổ sung.. Trang được dựng bằng HTML, CSS và JavaScript thuần, không cần bước biên dịch.
 
-## 🌐 Demo
+> Mọi tên, số điện thoại, địa chỉ và số liệu trên trang đều là **dữ liệu mẫu**. Giá hiển thị là **giá mẫu**. Biểu mẫu (nếu có) chỉ là giao diện minh họa: không gửi dữ liệu đi đâu và không có backend.
 
-**[https://muse-soft.github.io/m-software-cafe-landing/](https://muse-soft.github.io/m-software-cafe-landing/)**
+**Demo trực tuyến:** https://muse-soft.github.io/m-software-cafe-landing/
+**Giấy phép:** [MIT](LICENSE) © M-Software
 
-## Nội dung trang
+## Cách xem
 
-- **Phần mở đầu (hero):** tên quán, slogan, ảnh chính và nút xem thực đơn.
-- **Thực đơn (5 món):** Cà phê sữa đá, Cà phê đen đá, Bạc xỉu, Trà đào cam sả, Bánh croissant.
-- **Địa chỉ + giờ mở cửa:** mục "Tìm chúng tôi" cuối trang.
-- **Nút gọi điện:** nút "Gọi đặt bàn / đặt món" gọi thẳng tới số điện thoại của quán.
+Mở `index.html` bằng trình duyệt (nhấp đúp, không cần máy chủ), hoặc mở liên kết demo ở trên. Giữ nguyên các tệp cùng thư mục vì liên kết là tương đối.
 
-## Công nghệ
+| Tệp | Nội dung |
+|---|---|
+| `LICENSE` | Giấy phép MIT |
+| `README.md` | Tài liệu giới thiệu này |
+| `index.html` | Trang chính |
+| `styles.css` | Bảng định kiểu (toàn bộ giao diện) |
 
-HTML/CSS tĩnh, không cần build, không cần cài đặt gì thêm.
+## English
 
-## Chạy local
+A **static** landing page for [CẦN PO BỔ SUNG], built with plain HTML, CSS and JavaScript. All names, contact details and figures shown are sample data, displayed prices are sample prices, and any form is interface-only — nothing is submitted and there is no backend. Open `index.html` in a browser. Licensed under MIT.
 
-Mở trực tiếp file `index.html` bằng trình duyệt, hoặc dùng bất kỳ static server nào, ví dụ:
-
-```bash
-python3 -m http.server
-```
-
-rồi mở `http://localhost:8000`.
-
-## Deploy
-
-Trang được deploy bằng GitHub Pages từ nhánh `main`: push lên `main` là trang live tự cập nhật.
-
-## Ghi chú
-
-Tên quán, địa chỉ, số điện thoại và giá các món hiện đang là thông tin giữ chỗ (placeholder) — thay bằng thông tin thật khi có.
-
-## License
-
-Xem file [LICENSE](LICENSE).
+Contact: contact@genalpha.dev
