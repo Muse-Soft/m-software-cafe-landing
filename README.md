@@ -1,6 +1,6 @@
 # M-Software Cafe
 
-Trang giới thiệu (landing page) **tĩnh** — trang giới thiệu quán cà phê — tên quán, thực đơn, địa chỉ, giờ mở cửa và nút gọi điện. Các thông tin có cờ [CẦN PO BỔ SUNG] đang chờ PO bổ sung.. Trang được dựng bằng HTML, CSS và JavaScript thuần, không cần bước biên dịch.
+Trang giới thiệu (landing page) **tĩnh** — trang giới thiệu quán cà phê — tên quán, thực đơn, địa chỉ, giờ mở cửa và nút gọi điện. Các thông tin có cờ [CẦN PO BỔ SUNG] đang chờ PO bổ sung. Trang được dựng bằng HTML, CSS và JavaScript thuần, không cần bước biên dịch.
 
 > Mọi tên, số điện thoại, địa chỉ và số liệu trên trang đều là **dữ liệu mẫu**. Giá hiển thị là **giá mẫu**. Biểu mẫu (nếu có) chỉ là giao diện minh họa: không gửi dữ liệu đi đâu và không có backend.
 
