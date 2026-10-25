@@ -1,4 +1,4 @@
-# [CẦN PO BỔ SUNG]
+# M-Software Cafe
 
 Trang giới thiệu (landing page) **tĩnh** — trang giới thiệu quán cà phê — tên quán, thực đơn, địa chỉ, giờ mở cửa và nút gọi điện. Các thông tin có cờ [CẦN PO BỔ SUNG] đang chờ PO bổ sung.. Trang được dựng bằng HTML, CSS và JavaScript thuần, không cần bước biên dịch.
 
@@ -20,6 +20,6 @@ Mở `index.html` bằng trình duyệt (nhấp đúp, không cần máy chủ),
 
 ## English
 
-A **static** landing page for [CẦN PO BỔ SUNG], built with plain HTML, CSS and JavaScript. All names, contact details and figures shown are sample data, displayed prices are sample prices, and any form is interface-only — nothing is submitted and there is no backend. Open `index.html` in a browser. Licensed under MIT.
+A **static** landing page for M-Software Cafe, built with plain HTML, CSS and JavaScript. All names, contact details and figures shown are sample data, displayed prices are sample prices, and any form is interface-only — nothing is submitted and there is no backend. Open `index.html` in a browser. Licensed under MIT.
 
 Contact: contact@genalpha.dev
