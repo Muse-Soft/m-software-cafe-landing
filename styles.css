@@ -1,4 +1,4 @@
-/* TEC-18: CSS thuần, mobile-first, không framework. */
+/* CSS thuần, mobile-first, không framework. */
 * { box-sizing: border-box; }
 body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color: #2b2118; background: #fdf8f1; line-height: 1.6; }
 h1 { font-size: 2rem; margin: 0 0 .5rem; }
